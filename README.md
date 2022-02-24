@@ -58,10 +58,11 @@ python verify.py --ori_path ./dataset/images/ --adv_path ./adv/FIA/ --output_fil
 If you find this work is useful in your research, please consider citing:
 
 ```
-@article{wang2021feature,
-  title={Feature Importance-aware Transferable Adversarial Attacks},
+@inproceedings{wang2021feature,
+  title={Feature importance-aware transferable adversarial attacks},
   author={Wang, Zhibo and Guo, Hengchang and Zhang, Zhifei and Liu, Wenxin and Qin, Zhan and Ren, Kui},
-  journal={arXiv preprint arXiv:2107.14185},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7639--7648},
   year={2021}
-}
+  }
 ```
