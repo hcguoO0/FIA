@@ -42,7 +42,7 @@ python attack.py --model_name vgg_16 --attack_method PIM --amplification_factor 
 - FIA+PIDIM
 
 ```
-python attack.py --model_name vgg_16 --attack_method FIAPIM --layer_name vgg_16/conv3/conv3_3/Relu --ens 30 --probb 0.7 --amplification_factor 2.5 --gamma 0.5 --Pkern_size 3 --image_size 224 --image_resize 250 --prob 0.7 --output_dir ./adv/FIAPIDIM/
+python attack.py --model_name vgg_16 --attack_method FIAPIDIM --layer_name vgg_16/conv3/conv3_3/Relu --ens 30 --probb 0.7 --amplification_factor 2.5 --gamma 0.5 --Pkern_size 3 --image_size 224 --image_resize 250 --prob 0.7 --output_dir ./adv/FIAPIDIM/
 ```
 
 Different attack methods have different parameter setting, and the detailed setting can be found in our paper.
