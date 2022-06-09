@@ -6,12 +6,11 @@ This repository contains the code for the paper:
 
 ## Requirements
 
-- Python 3.6.8
+- Python 3.6.3
 - Keras 2.2.4
-- Tensorflow 1.14.0
+- Tensorflow 1.12.2
 - Numpy 1.16.2
-- Pillow 6.0.0
-- Scipy 1.2.1
+- Pillow 4.2.1
 
 ## Experiments
 
